@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Tenorite;
+    src: url(Tenorite.ttf);
+}
+
+html {
+    
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Tenorite;
+    overflow-x: hidden;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.segment-title {
+    font-size: 45px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+#main-name-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#famous-words-list {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#famous-words-li {
+    min-height: 99vh;
+}
+
+section {
+    scroll-behavior: smooth;
+    position: relative;
+    scroll-snap-align: start;
+}
