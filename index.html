@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">    
-    <link rel="stylesheet" href="scrollbar.css">    
+    <link rel="stylesheet" href="quotes.css">    
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="index.js" defer></script>
     <title>Egy weboldal bukásra vágyóknak!</title>
 </head>
 <body>
-    <section id="main-name-sec">
-        <h1 id="name">Dr. Göde Andrea</h1>
-        <span class="material-symbols-outlined" id="down-arrow" onclick="scrollDown()">expand_more</span>
-    </section>
-    <section id="famous-words-sec">
-        <h1 class="segment-title">Híres mondásai:</h1>
-        <div id="famous-words-list">
-            <p>"Valaki beszél"</p>
-            <p>"Valakinek nyitva maradt a szája"</p>
-            <p>"És nem veszi magát észre"</p>
-            <p>"Csak mondja és mondja és mondja..."</p>
-            <p>"Galamb-story"</p>
+    <h1 id="name">Dr. Göde Andrea</h1>
+    <div id="infos-listed-div">
+       <div class="informaton-div">
+            <span class="material-symbols-outlined">location_on</span>
+            <p>Széchenyi István Műszaki Technikum</p>
         </div>
-    </section>
+        <div class="informaton-div">
+            <span class="material-symbols-outlined">menu_book</span>
+            <p>Magyar tanár</p>
+        </div>
+        <div class="informaton-div">
+            <span class="material-symbols-outlined">exercise</span>
+            <p>Ping Pong</p>
+        </div> 
+    </div>
+    
+    <div id="quotes-div">
+        <p class="quote" n=1>"Valaki beszél"</p>
+        <p class="quote" n=2>"Csak mondja, mondja és mondja..."</p>
+        <p class="quote" n=3>"Én nem szeretnék egyeseket osztogatni"</p>
+        <p class="quote" n=4>"Krétában bent lesz"</p>
+        <p class="quote" n=5>"Valakinek nyitva maradt a szája"</p>
+    </div>
+
 </body>
 </html>

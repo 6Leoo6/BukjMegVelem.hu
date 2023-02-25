@@ -3,91 +3,94 @@
     src: url(Tenorite.ttf);
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
 body {
     background-color: black;
     color: white;
     font-family: Tenorite;
     overflow-x: hidden;
-
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
 }
 
-.segment-title {
-    font-size: 45px;
-    margin-left: 5px;
-    padding-top: 10px;
-}
-
-#main-name-sec {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
+p { 
+    margin: 0;
 }
 
 #name {
-    font-size: 50px;
-    text-shadow: 0 0 10px white;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
-#famous-words-list {
-    font-size: 30px;
-    text-align: center;
+#infos-listed-div {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.informaton-div {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 10px;
 }
 
-#famous-words-sec {
-    min-height: 99vh;
+.informaton-div p {
+    margin-left: 5px;
 }
 
-section {
-    scroll-behavior: smooth;
-    position: relative;
-    scroll-snap-align: start;
-}
-
-#down-arrow {
+.quote {
+    font-size: 30px;
     position: absolute;
-    bottom: 3vh;
-    font-size: 50px;
-    background: rgba(0, 0, 0, 0);
     cursor: pointer;
-
-    animation-name: arrow-pulse;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+    transition: transform 0.5s;
 }
 
-@keyframes arrow-pulse {
-    from {transform: scale(1);}
-    to {transform: scale(1.4);}
+.quote:hover {
+    transform: scale(1.2);
 }
 
-@media screen and (max-width: 450px) {
-    .segment-title {
-        font-size: 35px;
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-
+@media screen and (max-width: 700px) {
     #name {
-        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 50px;
     }
 
-    p {
-        padding: 0 20px;
-        font-size: 25px;
+    #infos-listed-div {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #name {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    #infos-listed-div {
+        margin-left: 10px;
+    }
+
+    .informaton-div {
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #name {
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    #infos-listed-div {
+        margin-left: 5px;
+        font-size: 15px;
     }
 }

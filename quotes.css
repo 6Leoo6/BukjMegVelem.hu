@@ -1,0 +1,137 @@
+.quote[n="1"] {
+    opacity: 1;
+    margin-top: 7vh;
+    margin-left: 70vw;
+}
+
+.quote[n="2"] {
+    opacity: 0.4;
+    margin-top: 23vh;
+    margin-left: 55vw;
+}
+
+.quote[n="3"] {
+    opacity: 0.8;
+    margin-top: 13vh;
+    margin-left: 35vw;
+}
+
+.quote[n="4"] {
+    opacity: 0.6;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.quote[n="5"] {
+    opacity: 0.7;
+    margin-top: 25vh;
+    margin-left: 10vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .quote[n="1"] {
+        margin-top: 7vh;
+        margin-left: 55vw;
+    }
+    
+    .quote[n="2"] {
+        margin-top: 23vh;
+        margin-left: 40vw;
+    }
+    
+    .quote[n="3"] {
+        margin-top: 15vh;
+        margin-left: 20vw;
+    }
+    
+    .quote[n="4"] {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    
+    .quote[n="5"] {
+        margin-top: 30vh;
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .quote[n="1"] {
+        margin-top: 7vh;
+        margin-left: 55vw;
+    }
+    
+    .quote[n="2"] {
+        margin-top: 30vh;
+        margin-left: 10vw;
+    }
+    
+    .quote[n="3"] {
+        margin-top: 15vh;
+        margin-left: 20vw;
+    }
+    
+    .quote[n="4"] {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    
+    .quote[n="5"] {
+        margin-top: 40vh;
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .quote[n="1"] {
+        margin-top: 10vh;
+        margin-left: 40vw;
+    }
+    
+    .quote[n="2"] {
+        margin-top: 28vh;
+        margin-left: 20vw;
+    }
+    
+    .quote[n="3"] {
+        margin-top: 16vh;
+        margin-left: 10vw;
+    }
+    
+    .quote[n="4"] {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    
+    .quote[n="5"] {
+        margin-top: 40vh;
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .quote[n="1"] {
+        margin-top: 13vh;
+        margin-left: 25vw;
+    }
+    
+    .quote[n="2"] {
+        margin-top: 33vh;
+        margin-left: 18vw;
+    }
+    
+    .quote[n="3"] {
+        margin-top: 20vh;
+        margin-left: 0vw;
+    }
+    
+    .quote[n="4"] {
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    
+    .quote[n="5"] {
+        margin-top: 50vh;
+        margin-left: 3vw;
+    }
+}
