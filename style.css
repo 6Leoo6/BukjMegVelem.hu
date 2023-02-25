@@ -3,6 +3,12 @@
     src: url(Tenorite.ttf);
 }
 
+html {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 body {
     background-color: black;
     color: white;
@@ -32,6 +38,13 @@ p {
     align-items: center;
 
     margin-bottom: 10px;
+    cursor: pointer;
+    width: fit-content;
+    transition: transform 0.3s;
+}
+
+.informaton-div:hover {
+    transform: scale(1.1);
 }
 
 .informaton-div p {
